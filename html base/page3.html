@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document2</title>
+    <meta name="author" content="sree">
+    <meta name="keywords" content="how to create forms,htm,html forms">
+    <meta name="description" content="creating form using html">
+</head>
+<body>
+
+
+<div display="flex" align="center" style="margin-top: 5px;">
+    <!-- FORM STARTS HERE-->
+<form action="index.php"
+ method="post"
+ enctype="multipart/form-data" >
+
+ <!-- TEXT BOX-->
+<label for="uname">username:</label>
+<input type="text" id="uname" required
+minlength="6"maxlength="15"
+placeholder="only alphabets">
+<BR>
+<br>
+<BR>
+
+ <!-- PASSWORD BOX-->
+<label for="pass">password:</label>
+<input 
+type="password" 
+id="pass" 
+maxlength="8"
+minlength="5"
+required>
+<BR><BR>
+<br>
+
+ <!-- EMAIL BOX-->
+<label for="em">Email:</label>
+<input 
+type="email"
+id="em" 
+placeholder="sample@gmail.com"
+>
+<BR><BR>
+<br>
+
+ <!-- PHONE BOX-->
+
+<label for="ph">phone no:</label>
+<input type="tel"
+required
+id="ph"
+placeholder="9956XXXXXX"
+>
+<BR><BR>
+<br>
+
+ <!-- DOB BOX-->
+
+<label for="bd">DOB:</label>
+<input type="date"
+required
+id="bd"
+>
+<BR><BR>
+<br>
+
+
+ <!-- QUANTITY BOX-->
+<label for="qnt">quantity:</label>
+<input type="number"
+id=qnt
+min="0"
+max="10"
+value="1"
+>
+<BR><BR>
+<br>
+
+ <!-- RADIO BOX-->
+<label for="mr">Mr.</label>
+<input type="radio"
+id="mr"
+name="same">
+<label for="Mrs.">Mrs.</label>
+<input type="radio"
+id="Mrs"
+name="same">
+
+<label for="neither">neither.</label>
+<input type="radio"
+id="neither"
+name="same">
+
+<br>
+<BR><BR>
+ <!-- DROP DOWN BOX-->
+<label for="payment">Payment:</label>
+<select id="payment">
+<option value="Rupay">Rupay</option>
+<option value="Visa">Visa</option>
+<option value="Mastercard">Mastercard</option>
+</select>
+
+<br>
+<BR><BR>
+ <!-- CHECK BOX-->
+<label for="chck">Checkbox:</label>
+<input type="checkbox"
+id="chck"
+>
+
+<br>
+<BR><BR>
+ <!-- COMMENT BOX-->
+<label for="text">comments:</label>
+<textarea id="text"
+rows="3"
+cols="3"
+></textarea>
+
+<br>
+<BR><BR>
+ <!-- FILE UPLOADING BOX-->
+<label for="file">Choose the file:</label>
+<input type="file" 
+id="file"
+accept="image/jpg,image/png">
+
+<br>
+<BR><BR>
+ <!-- COLOUR SELECTION-->
+<label for="color">colour:</label>
+<input type="color"
+id="color"
+>
+
+<BR>
+    <BR><BR>
+ <!-- RANGE METER-->
+<label for="range">Range</label>
+<input type="range"
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="margin-top: 45px;"></div>
+<input type="submit">
+<input type="reset">
+</div>
+
+
+
+
+
+
+</form>
+    </div>
+
+
+
+
+
+
+
+    
+</body>
+</html>
